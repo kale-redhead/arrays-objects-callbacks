@@ -42,7 +42,8 @@ let favoriteThings = {
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//code here
+favoriteThings.car = 'Mercedes';
+favoriteThings.brand = 'Timberlands';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -67,7 +68,9 @@ let backPack = {
 }
 
 let item = 'firstPocket';
-
+backPack[item] = 'firstPocket';
+backPack['firstPocket'] = 'chapstick';
+backPack.color = 'red';
 
 /*
   After you do the above, alert your entire backPack object.
