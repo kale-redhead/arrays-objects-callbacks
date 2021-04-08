@@ -52,7 +52,7 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 function looper(family){
   for (let i = 0; i < family.length; i++){
-    console.log(family[i], i);
+    alert(i);
   }
 }
 
@@ -71,7 +71,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 function reversedLooper(){
   for (let i = letters.length-1; i >= 0; i --){
-    console.log(letters[i]);
+    alert (i);
   }
 }
 
@@ -88,7 +88,13 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 */
 
 function evenFinder(nums){
-  return nums 
+  let nums2 = [];
+  for (let i = 0; i < nums.length; i ++){
+    if (nums[i] % 2 === 0){
+      nums2.push(nums[i]);
+    }
+  }
+  return nums2;
 }
 
 
