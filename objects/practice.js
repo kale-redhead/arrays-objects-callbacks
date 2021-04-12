@@ -76,7 +76,7 @@ backPack.color = 'red';
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -84,7 +84,7 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
 
-//Code here
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -117,14 +117,16 @@ user2.email = 'bryan.smith@devmounta.in';
   Create an empty object called methodCollection.
 */
 
-//Code Here
+let methodCollection = {}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
-//Code Here
+medthodCollection.alertHello = alertHello;
+methodCollection.logHello = logHello;
+
 
 /*
   Now call your alertHello and logHello methods.
@@ -139,7 +141,9 @@ user2.email = 'bryan.smith@devmounta.in';
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+function makePerson(name, birthday, ssn){
+
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -148,4 +152,6 @@ user2.email = 'bryan.smith@devmounta.in';
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
+function makeCard(cardNumber, expirationDate, securityCode){
+  
+}
